@@ -1,0 +1,60 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://www.google.com.eg/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=0ahUKEwi2hJ3UktfUAhVCahoKHWVwCHgQjRwIBw&url=https%3A%2F%2Fwallpapersafari.com%2Fgood-wallpapers-for-computer%2F&psig=AFQjCNEVimaPrr4FAiyPGGDIJswJNe-5ng&ust=1498416517451211');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    text-align: center
+}
+
+div{
+    margin:150px auto;
+    width:400px;
+    height:400px;
+    background-color:#FFF;
+    border-radius: 100px 20px;
+    box-shadow:0 0 23px #af81d7;
+    padding-top:30px
+}
+
+div p{
+    color:#9a34bf;
+    font-family: cursive;
+    font-size: 30px
+}
+
+div form input{
+    width:300px;
+    margin:18px auto;
+    border:none;
+    box-shadow: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    transition:all 1s ease-in-out
+}
+
+div form input:nth-child(n+1):nth-child(-n+2){
+    border-bottom:1px solid #9a34bf
+}
+
+div form input:nth-child(3){
+    border:1px solid #9a34bf;
+    background:none;
+    color:#9a34bf;
+    transition: all 1s ease-in-out
+}
+
+div form input:nth-child(3):hover{
+    background-color:#9a34bf;
+    color:#FFF;
+    transform: scale(1.2)
+}
+
+
